@@ -1,0 +1,11 @@
+.header{
+    text-align: center;
+    margin-top: 150px;
+    border: solid 1px;
+    
+}
+
+.header Input{
+    width: 30%;
+    padding: 10px;
+}

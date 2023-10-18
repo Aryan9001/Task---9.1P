@@ -1,0 +1,64 @@
+.container {
+    height: 80%;
+    min-height: 30vh;
+    width: 100%;
+    background-color: #fff;
+    /* Set the background to white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.innerBox {
+    min-width: 480px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    /* Add a black border */
+    border: 1px solid #000;
+}
+
+/* Update login.css */
+
+/* Add styling for input fields */
+.innerBox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Style the email and password labels */
+.innerBox label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Add some spacing between input fields */
+.innerBox .input-group {
+    margin-bottom: 20px;
+}
+
+/* Style the "Login" button */
+.footer button {
+    /* Your existing button styles */
+    /* ... */
+    width: auto; /* Remove the 100% width to fit button content */
+    padding: 10px 16px;
+}
+
+/* Center the error message */
+.error {
+    text-align: center;
+}
